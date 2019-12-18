@@ -1,0 +1,25 @@
+$heightIcon:10%;
+$widthIcon:10%;
+$iconColor:rgb(77, 208, 212);
+header {
+    width: 100%;
+}
+
+.fixed {
+    position: relative;
+    z-index: 1000;
+}
+
+.section-about {
+    margin-top: 10rem;
+}
+
+body {
+    background-image: url(/public/img/background.jpg);
+}
+
+svg {
+    color: $iconColor;
+    width: $widthIcon;
+    height: $heightIcon;
+}

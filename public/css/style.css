@@ -1,0 +1,17 @@
+header {
+  width: 100%; }
+
+.fixed {
+  position: relative;
+  z-index: 1000; }
+
+.section-about {
+  margin-top: 10rem; }
+
+body {
+  background-image: url(/public/img/background.jpg); }
+
+svg {
+  color: #4dd0d4;
+  width: 10%;
+  height: 10%; }
