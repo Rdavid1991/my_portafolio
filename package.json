@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "scss": "node-sass --watch /assets/sass -o /assets/css",
+        "scss": "node-sass --watch public/sass -o public/css",
         "start": "node index",
         "dev": "nodemon -e js,css,html,json index",
         "test": "echo \"Error: no test specified\" && exit 1"

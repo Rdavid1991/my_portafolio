@@ -1,0 +1,11 @@
+@mixin sections {
+    margin-top: 5rem;
+    width: 100%;
+    height: 32rem;
+}
+
+@mixin sectionsChild {
+    width: 70%;
+    background-color: rgba(245, 243, 235, 0.80);
+    border-radius: 10px;
+}

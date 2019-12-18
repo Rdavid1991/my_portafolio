@@ -1,3 +1,4 @@
+@import '_function.scss';
 $heightIcon:10%;
 $widthIcon:10%;
 $iconColor:rgb(77, 208, 212);
@@ -5,17 +6,40 @@ header {
     width: 100%;
 }
 
+body {
+    height: 111rem;
+}
+
 .fixed {
-    position: relative;
-    z-index: 1000;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .section-about {
-    margin-top: 10rem;
+    @include sections();
+    .card-about {
+        @include sectionsChild();
+    }
+}
+
+.section-work {
+    @include sections();
+    .card-work {
+        @include sectionsChild();
+    }
+}
+
+.section-curriculum {
+    @include sections();
+    .card-curriculum {
+        @include sectionsChild();
+    }
 }
 
 body {
-    background-image: url(/public/img/background.jpg);
+    background: url(/public/img/background.jpg) no-repeat;
+    background-attachment: fixed;
 }
 
 svg {
