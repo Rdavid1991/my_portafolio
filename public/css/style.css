@@ -2,7 +2,10 @@ header {
   width: 100%; }
 
 body {
-  height: 111rem; }
+  height: 115rem; }
+
+.text-header {
+  color: white; }
 
 .fixed {
   position: fixed;
@@ -10,7 +13,7 @@ body {
   width: 100%; }
 
 .section-about {
-  margin-top: 5rem;
+  margin-top: 8rem;
   width: 100%;
   height: 32rem; }
   .section-about .card-about {
@@ -19,7 +22,7 @@ body {
     border-radius: 10px; }
 
 .section-work {
-  margin-top: 5rem;
+  margin-top: 8rem;
   width: 100%;
   height: 32rem; }
   .section-work .card-work {
@@ -28,7 +31,7 @@ body {
     border-radius: 10px; }
 
 .section-curriculum {
-  margin-top: 5rem;
+  margin-top: 8rem;
   width: 100%;
   height: 32rem; }
   .section-curriculum .card-curriculum {
